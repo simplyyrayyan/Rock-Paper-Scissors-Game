@@ -1,3 +1,4 @@
+# Rock Paper Scissors Game Program 
 import random
 import time
 import sys
@@ -97,17 +98,18 @@ while True:
         computer_choice = random.choice(answerlist)
         print(computer_choice)
 
-        # User Ties if Computer Chooses Rock
+        # User Loses if Computer Chooses Rock
         if computer_choice == 'I Choose Rock':
             time.sleep(1)
             ask_to_continue(lose_message)
         
-        # User Wins if Computer Chooses Scissors
+        # User Ties if Computer Chooses Scissors
         elif computer_choice == 'I Choose Scissors':
             time.sleep(1)
             ask_to_continue(tie_message)
         
-        # User Loses if Computer Chooses Paper
+        # User Wins if Computer Chooses Paper
         elif computer_choice == 'I Choose Paper':
             time.sleep(1)
             ask_to_continue(win_message)
+# Code Ends
