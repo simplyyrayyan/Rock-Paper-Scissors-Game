@@ -1,8 +1,7 @@
-# Not My code from CHATGPT CASE I JUST WANT THE FEATURE NOT UNDERSTANDING THIS PIECE OF CODE
 import time
 import sys
 
-def slow_print(text, speed=0.10):
+def slow_print(text, speed=0.08):
     """
     Prints text slowly to the terminal.
     speed: Time in seconds between characters.
